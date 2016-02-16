@@ -1,0 +1,2 @@
+!function(a){"use strict";a(document).on("click",".navbar-collapse.in",function(b){a(b.target).is("a")&&a(this).collapse("hide")});var b=function(){a("body").css("margin-bottom",a("footer").height())},c=!1;b(),a(window).resize(function(){c=!0}),setInterval(function(){c&&(c=!1,b())},250)}(window.$);
+//# sourceMappingURL=site.js.map
